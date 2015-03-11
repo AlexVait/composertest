@@ -1,19 +1,14 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "alex/composer-test",
-            "version": "dev-master",
-            "source": {
-                "url": "git@github.com:AlexVait/composertest.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "TestService" : "src"
-                }
-            }
+{
+    "name": "alexvait/composertest",
+    "description": "Simple test",
+    "authors": [
+        {
+            "name": "Alex Vait",
+            "email": "vait@lieferando.de"
         }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.2.0"
     }
-],
+}
